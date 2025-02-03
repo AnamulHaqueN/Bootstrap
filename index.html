@@ -17,7 +17,8 @@
     At, id nisi iste dolor amet excepturi! Suscipit, incidunt asperiores modi voluptatibus placeat aliquid ducimus quam consequatur soluta eum temporibus iusto ex, saepe repellendus eveniet inventore? Debitis officia facere ducimus.
     At, fugit? Voluptatibus qui unde natus accusamus, molestias dignissimos suscipit voluptatum? Aut excepturi animi accusamus voluptates tempora ipsa aperiam, vel veritatis eius, atque expedita, perferendis ea delectus quo voluptatem ratione.</p>
    </div> 
-
+   
+   <!-- used for bootstrap normal button style -->
    <div>
        <button class="btn btn-primary">btn 1</button>
        <button class="btn btn-secondary">btn 2</button>
@@ -25,6 +26,8 @@
        <button class="btn btn-info">btn 4</button>
        <a class="btn btn-info" href="#" role="button">click me!</a>
    </div>
+
+   <!-- used for bootstrap button outline in hover it will show the colour -->
    <div>
        <button type="button" class="btn btn-outline-primary">primary</button>
        <button type="button" class="btn btn-outline-secondary">secondary</button>
@@ -34,6 +37,34 @@
        <button type="button" class="btn btn-outline-info">info</button>
        <button type="button" class="btn btn-outline-light">light</button>
        <button type="button" class="btn btn-outline-dark">dark</button>
+   </div>
+   
+   <!-- Bootstrap Badges popular use for showing number of notifications -->
+   <div>
+       <h1>Example heading<span class="badge text-bg-secondary">New</span></h1>
+       <h3>Example heading<span class="badge text-bg-primary">New</span> </h3>
+       <!-- Badges use for button -->
+        <button type="button" class="btn btn-primary">
+            Notifications<span class="badge text-bg-secondary">+4</span>
+        </button>
+        
+        <!-- use utilities to modify a .badge and position it in the corner of a link or button. -->
+        <button type="button" class="btn btn-primary position-relative">Inbox
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">99+
+                <span class="visually-hidden">unread messages</span>
+            </span>
+        </button> 
+
+        <!-- Set a background-color -->
+        <span class="badge text-bg-primary">primary</span>
+        <span class="badge text-bg-secondary">secondary</span>
+        <span class="badge text-bg-success">success</span>
+        <span class="badge text-bg-danger">danger</span>
+
+        <!-- pill badges -->
+         <span class="badge rounded-pill text-bg-primary">primay</span>
+         <span class="badge rounded-pill text-bg-secondary">secondary</span>
+         <span class="badge rounded-pill text-bg-success">success</span>
    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
