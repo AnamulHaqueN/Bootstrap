@@ -5,3 +5,9 @@
 .btn-info{
     background-color: aquamarine;
 }
+
+.cl{
+    background-color:blueviolet;
+    display: flex;
+    justify-content: space-evenly;
+}
